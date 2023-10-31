@@ -1,0 +1,29 @@
+{
+  "name": "cdio-backend",
+  "version": "1.0.0",
+  "description": "cdio backend-api",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "js"
+  ],
+  "author": "esprit",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.1",
+    "qrcode": "^1.5.3",
+    "shortid": "^2.2.16",
+    "uuid": "^9.0.0"
+  }
+}
